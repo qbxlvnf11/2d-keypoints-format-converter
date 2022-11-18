@@ -8,8 +8,6 @@ Description
 
 #### - Details of COCO
   - Joints (19)
-    - Keypoints format of MPI version is obsolte and no longer supported
-    - Now, same with COCO keypoints format
     - 0: neck
     - 1: nose
     - 2: center of hips
