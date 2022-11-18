@@ -10,8 +10,6 @@ Description
   - Joints (17)
   - Visualization imgs
 
-<img src="https://user-images.githubusercontent.com/52263269/202661901-41e34c4d-5dca-48e2-8885-4711c19f1d66.png" width="50%"></img>
-
 #### - Details of MPII
   - The images are taken from YouTube videos covering 410 different human activities and the poses
   - Train: 15K, Valid: 3K, Test: 7K (Total: 25K)
@@ -34,8 +32,8 @@ Description
     - 14: left elbow
     - 15: left wrist
   - Visualization imgs
-
-<img src="https://user-images.githubusercontent.com/52263269/202191388-473de652-5c21-40cc-9218-96dc939e9724.png" width="50%"></img>
+  
+<img src="https://user-images.githubusercontent.com/52263269/202661901-41e34c4d-5dca-48e2-8885-4711c19f1d66.png" width="50%"></img>
 
 #### - Details of CMU Panoptic (Projected 2D keypoints from 3D keypoints)
   - Joints (18)
