@@ -8,6 +8,8 @@ Description
 
 #### - Details of COCO
   - Joints (19)
+    
+    ```
     - 0: neck
     - 1: nose
     - 2: center of hips
@@ -27,6 +29,8 @@ Description
     - 16: left ear
     - 17: right eye
     - 18: right ear
+    ```
+    
   - Visualization imgs
 
 #### - Details of MPII
