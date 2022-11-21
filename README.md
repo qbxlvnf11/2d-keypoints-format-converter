@@ -68,29 +68,33 @@ Description
 
 #### - Details of CMU Panoptic (Projected 2D keypoints from 3D keypoints)
   - Joints (19)
-    - Keypoints format of MPI version is obsolte and no longer supported
-    - Now, COCO19 keypoints format
+    - Keypoints format of MPI version is obsolte and no longer supported. Now, use COCO19 keypoints format.
 
-    ```
-    0: r ankle
-    1: r knee
-    2: r hip
-    3: l hip
-    4: l knee
-    5: l ankle
-    6: pelvis
-    7: thorax 
-    8: upper neck
-    9: head top
-    10: r wrist
-    11: r elbow
-    12: r shoulder
-    13: l shoulder
-    14: l elbow
-    15: l wrist
+     ```
+    0: Neck
+    1: Nose
+    2: BodyCenter (center of hips)
+    3: lShoulder
+    4: lElbow
+    5: lWrist,
+    6: lHip
+    7: lKnee
+    8: lAnkle
+    9: rShoulder
+    10: rElbow
+    11: rWrist
+    12: rHip
+    13: rKnee
+    14: rAnkle
+    15: lEye
+    16: lEar
+    17: rEye
+    18: rEar
     ```
 
   - Visualization imgs
+
+<img src="https://user-images.githubusercontent.com/52263269/202661901-41e34c4d-5dca-48e2-8885-4711c19f1d66.png" width="50%"></img>
 
 Contents
 =============
@@ -101,7 +105,7 @@ Contents
 Datasets
 =============
 
-#### - MMPOSE document
+#### - MMPOSE documents of keypoints
 
 [https://mmpose.readthedocs.io/en/latest/tasks/2d_body_keypoint.html](https://mmpose.readthedocs.io/en/latest/tasks/2d_body_keypoint.html)
 
