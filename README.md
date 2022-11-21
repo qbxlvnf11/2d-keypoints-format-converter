@@ -2,12 +2,12 @@
 Description
 =============
 
-#### - Key-points dataset format converter and visualization
+### - Key-points dataset format converter and visualization
   
   - Converting keypoints dataset to different joins format
   - Datasets: COCO, AiC, MPII keypoints, CMU Panoptic dataset
 
-#### - Details of COCO
+### - Details of COCO
   
   - The MS COCO (Microsoft Common Objects in Context) dataset is a large-scale object detection, segmentation, key-point detection, and captioning dataset.
   - Train 118K, Valid 5K, Test 41K (Total: 164K) 
@@ -74,7 +74,7 @@ Description
  
       <img src="https://user-images.githubusercontent.com/52263269/203120542-5b54b8ba-9577-49cd-aa66-4a15544faa8f.png" width="35%"></img>
 
-#### - Details of MPII
+### - Details of MPII
   
   - The images are taken from YouTube videos covering 410 different human activities and the poses
   - Train 15K, Valid 3K, Test 7K (Total: 25K)
@@ -104,7 +104,7 @@ Description
   
     <img src="https://user-images.githubusercontent.com/52263269/202661901-41e34c4d-5dca-48e2-8885-4711c19f1d66.png" width="70%"></img>
 
-#### - Details of CMU Panoptic (Projected 2D keypoints from 3D keypoints)
+### - Details of CMU Panoptic (Projected 2D keypoints from 3D keypoints)
   
   - Details of CMU Panoptic: https://github.com/qbxlvnf11/CMU-Panoptic-dataset-annotation-builder
     
