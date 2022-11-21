@@ -11,7 +11,7 @@ Description
   - Train 118K, Valid 5K, Test 41K (Total: 164K) 
   - Over 150,000 people and 1.7 million labeled keypoints
 
-- 2017 version
+  ##### - 2017 version
     - Joints (17)
     
       ```
@@ -39,7 +39,7 @@ Description
 
       <img src="https://user-images.githubusercontent.com/52263269/202964626-1215357f-5b63-4fe6-be27-462c370057a9.png" width="35%"></img>
  
-   - OpenPose version
+  ##### - OpenPose version
     - Joints (18)
     
       ```
@@ -62,8 +62,8 @@ Description
       16: R-Ear
       17: L-Ear
       ```
-      - skeleton (not fixed): [[1,2],[1,5],[2,3],[3,4],[5,6],[6,7],[1,8],[8,9],[9,10],[1,11],[11,12],[12,13],[1,0],[0,14],[14,16],[0,15],[15,17],[2,17], [5,16]]    
-     - Examples of visualization imgs
+    - skeleton (not fixed): [[1,2],[1,5],[2,3],[3,4],[5,6],[6,7],[1,8],[8,9],[9,10],[1,11],[11,12],[12,13],[1,0],[0,14],[14,16],[0,15],[15,17],[2,17], [5,16]]    
+    - Examples of visualization imgs
  
       <img src="https://user-images.githubusercontent.com/52263269/203120542-5b54b8ba-9577-49cd-aa66-4a15544faa8f.png" width="35%"></img>
  
