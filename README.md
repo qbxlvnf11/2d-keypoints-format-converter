@@ -49,7 +49,7 @@ Description
   **- OpenPose version**
     - Joints (18)
     
-    ```
+```
     0: Nose
     1: Neck
     2: R-Sho
@@ -68,7 +68,7 @@ Description
     15: L-Eye
     16: R-Ear
     17: L-Ear
-    ```
+```
     
     - skeleton (not fixed): [[1,2],[1,5],[2,3],[3,4],[5,6],[6,7],[1,8],[8,9],[9,10],[1,11],[11,12],[12,13],[1,0],[0,14],[14,16],[0,15],[15,17],[2,17], [5,16]]    
     - Examples of visualization imgs
