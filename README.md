@@ -3,10 +3,12 @@ Description
 =============
 
 #### - Key-points dataset format converter and visualization
+  
   - Converting keypoints dataset to different joins format
   - Datasets: COCO, AiC, MPII keypoints, CMU Panoptic dataset
 
 #### - Details of COCO
+  
   - The MS COCO (Microsoft Common Objects in Context) dataset is a large-scale object detection, segmentation, key-point detection, and captioning dataset.
   - Train 118K, Valid 5K, Test 41K (Total: 164K) 
   - Over 150,000 people and 1.7 million labeled keypoints
@@ -16,6 +18,7 @@ Description
     - v=2: labeled and visible
     
 ##### - 2017 version
+    
     - Joints (17)
     
       ```
