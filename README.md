@@ -15,7 +15,7 @@ Description
     - v=1: labeled but not visible
     - v=2: labeled and visible
     
-  ##### - 2017 version
+##### - 2017 version
     - Joints (17)
     
     ```
@@ -43,7 +43,7 @@ Description
 
       <img src="https://user-images.githubusercontent.com/52263269/202964626-1215357f-5b63-4fe6-be27-462c370057a9.png" width="35%"></img>
  
-  ##### - OpenPose version
+##### - OpenPose version
     - Joints (18)
     
     ```
@@ -103,7 +103,7 @@ Description
 
 #### - Details of CMU Panoptic (Projected 2D keypoints from 3D keypoints)
   
-  ##### - COCO19 keypoints version
+##### - COCO19 keypoints version
     - Joints (19)
 
     ```
