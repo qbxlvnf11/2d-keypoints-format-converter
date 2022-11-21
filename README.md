@@ -35,7 +35,7 @@ Description
     - skeleton: [[16,14],[14,12],[17,15],[15,13],[12,13],[6,12],[7,13],[6,7],[6,8],[7,9],[8,10],[9,11],[2,3],[1,2],[1,3],[2,4],[3,5],[4,6],[5,7]]
     - Visualization imgs
 
-<img src="https://user-images.githubusercontent.com/52263269/202964626-1215357f-5b63-4fe6-be27-462c370057a9.png" width="50%"></img>
+<img src="https://user-images.githubusercontent.com/52263269/202964626-1215357f-5b63-4fe6-be27-462c370057a9.png" width="35%"></img>
 
 #### - Details of MPII
   - The images are taken from YouTube videos covering 410 different human activities and the poses
@@ -103,13 +103,13 @@ Datasets
 
 #### - MMPOSE document
 
-[https://mmpose.readthedocs.io/en/latest/tasks/2d_body_keypoint.htm](https://mmpose.readthedocs.io/en/latest/tasks/2d_body_keypoint.html)l
+[https://mmpose.readthedocs.io/en/latest/tasks/2d_body_keypoint.html](https://mmpose.readthedocs.io/en/latest/tasks/2d_body_keypoint.html)
 
 #### - COC0 keypoints dataset
 
-https://cocodataset.org/#home
+[https://cocodataset.org/#home](https://cocodataset.org/#home)
 
-https://paperswithcode.com/dataset/coco
+[https://paperswithcode.com/dataset/coco](https://paperswithcode.com/dataset/coco)
 
 #### - AiC (Attributes in Crowd) keypoints dataset
 
