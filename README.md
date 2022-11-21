@@ -17,10 +17,9 @@ Description
     - v=1: labeled but not visible
     - v=2: labeled and visible
     
-  **- 2017 version** 
-    
     - Joints (17)
     
+    ```
     0: nose
     1: left_eye
     2: right_eye
@@ -38,6 +37,7 @@ Description
     14: right_knee
     15: left_ankle
     16: right_ankle
+    ```
     
     - skeleton (not fixed): [[15,13],[13,11],[16,14],[14,12],[11,12],[5,11],[6,12],[5,6],[5,7],[6,8],[7,9],[8,10],[1,2],[0,1],[0,2],[1,3],[2,4],[3,5],[4,6]]
     - Examples of visualization imgs
@@ -47,7 +47,7 @@ Description
   **- OpenPose version**
     - Joints (18)
     
-```
+    ```
     0: Nose
     1: Neck
     2: R-Sho
@@ -66,7 +66,7 @@ Description
     15: L-Eye
     16: R-Ear
     17: L-Ear
-```
+    ```
     
     - skeleton (not fixed): [[1,2],[1,5],[2,3],[3,4],[5,6],[6,7],[1,8],[8,9],[9,10],[1,11],[11,12],[12,13],[1,0],[0,14],[14,16],[0,15],[15,17],[2,17], [5,16]]    
     - Examples of visualization imgs
