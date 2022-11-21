@@ -12,27 +12,25 @@ Description
   - Joints (17)
     
     ```
-    0: neck
-    1: nose
-    2: center of hips
-    3: left shoulder
-    4: left elbow
-    5: left wrist,
-    6: left hip
-    7: left knee
-    8: left ankle
-    9: right shoulder
-    10: right elbow
-    11: right wrist
-    12: right hip
-    13: right knee
-    14: right ankle
-    15: left eye
-    16: left ear
-    17: right eye
-    18: right ear
+    0: nose
+    1: left_eye
+    2: right_eye
+    3: left_ear
+    4: right_ear
+    5: left_shoulder
+    6: right_shoulder
+    7: left_elbow
+    8: right_elbow
+    9: left_wrist
+    10: right_wrist
+    11: left_hip
+    12: right_hip
+    13: left_knee
+    14: right_knee
+    15: left_ankle
+    16: right_ankle
     ```
-    
+  - skeletons: [[16,14],[14,12],[17,15],[15,13],[12,13],[6,12],[7,13],[6,7],[6,8],[7,9],[8,10],[9,11],[2,3],[1,2],[1,3],[2,4],[3,5],[4,6],[5,7]]
   - Visualization imgs
 
 <img src="ttps://user-images.githubusercontent.com/52263269/202944185-e6468385-7beb-43e6-a9c4-6d5b766e463a.png" width="50%"></img>
@@ -44,22 +42,22 @@ Description
   - Joints (16)
     
     ```
-    0: right ankle
-    1: right knee
-    2: right hip
-    3: left hip
-    4: left knee
-    5: left ankle
+    0: r ankle
+    1: r knee
+    2: r hip
+    3: l hip
+    4: l knee
+    5: l ankle
     6: pelvis
     7: thorax 
     8: upper neck
     9: head top
-    10: right wrist
-    11: right elbow
-    12: right shoulder
-    13: left shoulder
-    14: left elbow
-    15: left wrist
+    10: r wrist
+    11: r elbow
+    12: r shoulder
+    13: l shoulder
+    14: l elbow
+    15: l wrist
     ```
     
   - Visualization imgs
