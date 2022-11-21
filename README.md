@@ -32,10 +32,10 @@ Description
       16: right_ankle
       ```
       
-    - Skeletons: [[16,14],[14,12],[17,15],[15,13],[12,13],[6,12],[7,13],[6,7],[6,8],[7,9],[8,10],[9,11],[2,3],[1,2],[1,3],[2,4],[3,5],[4,6],[5,7]]
-  - Visualization imgs
+    - skeleton: [[16,14],[14,12],[17,15],[15,13],[12,13],[6,12],[7,13],[6,7],[6,8],[7,9],[8,10],[9,11],[2,3],[1,2],[1,3],[2,4],[3,5],[4,6],[5,7]]
+    - Visualization imgs
 
-<img src="ttps://user-images.githubusercontent.com/52263269/202944185-e6468385-7beb-43e6-a9c4-6d5b766e463a.png" width="50%"></img>
+<img src="https://user-images.githubusercontent.com/52263269/202964626-1215357f-5b63-4fe6-be27-462c370057a9.png" width="50%"></img>
 
 #### - Details of MPII
   - The images are taken from YouTube videos covering 410 different human activities and the poses
@@ -69,7 +69,27 @@ Description
 #### - Details of CMU Panoptic (Projected 2D keypoints from 3D keypoints)
   - Joints (19)
     - Keypoints format of MPI version is obsolte and no longer supported
-    - Now, same with COCO keypoints format
+    - Now, COCO19 keypoints format
+
+    ```
+    0: r ankle
+    1: r knee
+    2: r hip
+    3: l hip
+    4: l knee
+    5: l ankle
+    6: pelvis
+    7: thorax 
+    8: upper neck
+    9: head top
+    10: r wrist
+    11: r elbow
+    12: r shoulder
+    13: l shoulder
+    14: l elbow
+    15: l wrist
+    ```
+
   - Visualization imgs
 
 Contents
@@ -80,6 +100,10 @@ Contents
 
 Datasets
 =============
+
+#### - MMPOSE document
+
+[https://mmpose.readthedocs.io/en/latest/tasks/2d_body_keypoint.htm](https://mmpose.readthedocs.io/en/latest/tasks/2d_body_keypoint.html)l
 
 #### - COC0 keypoints dataset
 
