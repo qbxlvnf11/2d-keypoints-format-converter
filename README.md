@@ -7,7 +7,9 @@ Description
   - Datasets: COCO, AiC, MPII keypoints, CMU Panoptic dataset
 
 #### - Details of COCO
-  - Joints (19)
+  - The MS COCO (Microsoft Common Objects in Context) dataset is a large-scale object detection, segmentation, key-point detection, and captioning dataset.
+  - 2017 version: Train 118K, Valid 5K, Test 41K (Total: 164K)
+  - Joints (17)
     
     ```
     0: neck
@@ -33,9 +35,11 @@ Description
     
   - Visualization imgs
 
+<img src="ttps://user-images.githubusercontent.com/52263269/202944185-e6468385-7beb-43e6-a9c4-6d5b766e463a.png" width="50%"></img>
+
 #### - Details of MPII
   - The images are taken from YouTube videos covering 410 different human activities and the poses
-  - Train: 15K, Valid: 3K, Test: 7K (Total: 25K)
+  - Train 15K, Valid 3K, Test 7K (Total: 25K)
   - Data annotations: http://human-pose.mpi-inf.mpg.de/#download
   - Joints (16)
     
@@ -80,6 +84,8 @@ Datasets
 #### - COC0 keypoints dataset
 
 https://cocodataset.org/#home
+
+https://paperswithcode.com/dataset/coco
 
 #### - AiC (Attributes in Crowd) keypoints dataset
 
