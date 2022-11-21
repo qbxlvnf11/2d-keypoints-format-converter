@@ -34,6 +34,10 @@ Description
       ```
       
     - skeleton (not fixed): [[15,13],[13,11],[16,14],[14,12],[11,12],[5,11],[6,12],[5,6],[5,7],[6,8],[7,9],[8,10],[1,2],[0,1],[0,2],[1,3],[2,4],[3,5],[4,6]]
+    - Visibility flag *v*
+      - v=0: not labeled (in which case x=y=0)
+      - v=1: labeled but not visible
+      - v=2: labeled and visible
     - Examples of visualization imgs
 
       <img src="https://user-images.githubusercontent.com/52263269/202964626-1215357f-5b63-4fe6-be27-462c370057a9.png" width="35%"></img>
