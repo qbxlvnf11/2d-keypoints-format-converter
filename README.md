@@ -8,29 +8,31 @@ Description
 
 #### - Details of COCO
   - The MS COCO (Microsoft Common Objects in Context) dataset is a large-scale object detection, segmentation, key-point detection, and captioning dataset.
-  - 2017 version: Train 118K, Valid 5K, Test 41K (Total: 164K)
-  - Joints (17)
+  - 2017 version
+    - Train 118K, Valid 5K, Test 41K (Total: 164K)
+    - Joints (17)
     
-    ```
-    0: nose
-    1: left_eye
-    2: right_eye
-    3: left_ear
-    4: right_ear
-    5: left_shoulder
-    6: right_shoulder
-    7: left_elbow
-    8: right_elbow
-    9: left_wrist
-    10: right_wrist
-    11: left_hip
-    12: right_hip
-    13: left_knee
-    14: right_knee
-    15: left_ankle
-    16: right_ankle
-    ```
-  - Skeletons: [[16,14],[14,12],[17,15],[15,13],[12,13],[6,12],[7,13],[6,7],[6,8],[7,9],[8,10],[9,11],[2,3],[1,2],[1,3],[2,4],[3,5],[4,6],[5,7]]
+      ```
+      0: nose
+      1: left_eye
+      2: right_eye
+      3: left_ear
+      4: right_ear
+      5: left_shoulder
+      6: right_shoulder
+      7: left_elbow
+      8: right_elbow
+      9: left_wrist
+      10: right_wrist
+      11: left_hip
+      12: right_hip
+      13: left_knee
+      14: right_knee
+      15: left_ankle
+      16: right_ankle
+      ```
+      
+    - Skeletons: [[16,14],[14,12],[17,15],[15,13],[12,13],[6,12],[7,13],[6,7],[6,8],[7,9],[8,10],[9,11],[2,3],[1,2],[1,3],[2,4],[3,5],[4,6],[5,7]]
   - Visualization imgs
 
 <img src="ttps://user-images.githubusercontent.com/52263269/202944185-e6468385-7beb-43e6-a9c4-6d5b766e463a.png" width="50%"></img>
@@ -98,6 +100,8 @@ https://paperswithcode.com/dataset/mpii
 #### - CMU Panoptic
 
 https://www.cs.cmu.edu/~hanbyulj/panoptic-studio/
+
+https://github.com/CMU-Perceptual-Computing-Lab/panoptic-toolbox
 
 Author
 =============
