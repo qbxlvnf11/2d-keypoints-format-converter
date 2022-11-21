@@ -8,9 +8,10 @@ Description
 
 #### - Details of COCO
   - The MS COCO (Microsoft Common Objects in Context) dataset is a large-scale object detection, segmentation, key-point detection, and captioning dataset.
-  - 2017 version
-    - Train 118K, Valid 5K, Test 41K (Total: 164K) 
-    - Over 150,000 people and 1.7 million labeled keypoints
+  - Train 118K, Valid 5K, Test 41K (Total: 164K) 
+  - Over 150,000 people and 1.7 million labeled keypoints
+
+- 2017 version
     - Joints (17)
     
       ```
@@ -34,13 +35,43 @@ Description
       ```
       
     - skeleton (not fixed): [[15,13],[13,11],[16,14],[14,12],[11,12],[5,11],[6,12],[5,6],[5,7],[6,8],[7,9],[8,10],[1,2],[0,1],[0,2],[1,3],[2,4],[3,5],[4,6]]
-    - Visibility flag *v*
-      - v=0: not labeled (in which case x=y=0)
-      - v=1: labeled but not visible
-      - v=2: labeled and visible
     - Examples of visualization imgs
 
       <img src="https://user-images.githubusercontent.com/52263269/202964626-1215357f-5b63-4fe6-be27-462c370057a9.png" width="35%"></img>
+ 
+   - OpenPose version
+    - Joints (18)
+    
+      ```
+      0: Nose
+      1: Neck
+      2: R-Sho
+      3: R-Elb
+      4: R-Wr
+      5: L-Sho
+      6: L-Elb
+      7: L-Wr
+      8: R-Hip
+      9: R-Knee
+      10: R-Ank
+      11: L-Hip
+      12: L-Knee
+      13: L-Ank
+      14: R-Eye
+      15: L-Eye
+      16: R-Ear
+      17: L-Ear
+      ```
+      - skeleton (not fixed): [[1,2],[1,5],[2,3],[3,4],[5,6],[6,7],[1,8],[8,9],[9,10],[1,11],[11,12],[12,13],[1,0],[0,14],[14,16],[0,15],[15,17],[2,17], [5,16]]    
+     - Examples of visualization imgs
+ 
+      <img src="https://user-images.githubusercontent.com/52263269/203120542-5b54b8ba-9577-49cd-aa66-4a15544faa8f.png" width="35%"></img>
+ 
+  - Visibility flag *v*
+    - v=0: not labeled (in which case x=y=0)
+    - v=1: labeled but not visible
+    - v=2: labeled and visible
+
 
 #### - Details of MPII
   - The images are taken from YouTube videos covering 410 different human activities and the poses
