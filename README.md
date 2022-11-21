@@ -9,8 +9,8 @@ Description
 #### - Details of COCO
   - The MS COCO (Microsoft Common Objects in Context) dataset is a large-scale object detection, segmentation, key-point detection, and captioning dataset.
   - 2017 version
-    - Train 118K, Valid 5K, Test 41K (Total: 164K)
-    - 
+    - Train 118K, Valid 5K, Test 41K (Total: 164K) 
+    - Over 150,000 people and 1.7 million labeled keypoints
     - Joints (17)
     
       ```
@@ -65,7 +65,7 @@ Description
     
   - Examples of visualization imgs
   
-    <img src="https://user-images.githubusercontent.com/52263269/202661901-41e34c4d-5dca-48e2-8885-4711c19f1d66.png" width="50%"></img>
+    <img src="https://user-images.githubusercontent.com/52263269/202661901-41e34c4d-5dca-48e2-8885-4711c19f1d66.png" width="70%"></img>
 
 #### - Details of CMU Panoptic (Projected 2D keypoints from 3D keypoints)
   
@@ -97,7 +97,7 @@ Description
     - skeleton: [[0,1],[0,3],[3,4],[4,5],[0,2],[2,6],[6,7],[7,8],[2,12],[12,13],[13,14],[0,9],[9,10],[10,11]]
     - Examples of visualization imgs
     
-      <img src="https://user-images.githubusercontent.com/52263269/202973034-14198c77-ced2-4ad8-8d66-4393f9e03c25.png" width="60%"></img>
+      <img src="https://user-images.githubusercontent.com/52263269/202973034-14198c77-ced2-4ad8-8d66-4393f9e03c25.png" width="70%"></img>
 
 Contents
 =============
