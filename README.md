@@ -10,7 +10,11 @@ Description
   - The MS COCO (Microsoft Common Objects in Context) dataset is a large-scale object detection, segmentation, key-point detection, and captioning dataset.
   - Train 118K, Valid 5K, Test 41K (Total: 164K) 
   - Over 150,000 people and 1.7 million labeled keypoints
-
+  - Visibility flag *v*
+    - v=0: not labeled (in which case x=y=0)
+    - v=1: labeled but not visible
+    - v=2: labeled and visible
+    
   ##### - 2017 version
     - Joints (17)
     
@@ -66,12 +70,6 @@ Description
     - Examples of visualization imgs
  
       <img src="https://user-images.githubusercontent.com/52263269/203120542-5b54b8ba-9577-49cd-aa66-4a15544faa8f.png" width="35%"></img>
- 
-  - Visibility flag *v*
-    - v=0: not labeled (in which case x=y=0)
-    - v=1: labeled but not visible
-    - v=2: labeled and visible
-
 
 #### - Details of MPII
   - The images are taken from YouTube videos covering 410 different human activities and the poses
@@ -104,7 +102,7 @@ Description
 
 #### - Details of CMU Panoptic (Projected 2D keypoints from 3D keypoints)
   
-  - COCO19 keypoints version
+  ##### - COCO19 keypoints version
     - Joints (19)
 
       ```
