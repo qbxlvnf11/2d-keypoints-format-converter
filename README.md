@@ -14,7 +14,7 @@ Description
   - Over 150,000 people and 1.7 million labeled keypoints
   - Visibility flag *v*
     - v=0: not labeled (in which case x=y=0)
-    - v=1: labeled but not visible
+    - v=1: labeled but not visible (occlusion)
     - v=2: labeled and visible
 
     **- 2017 version**
@@ -78,6 +78,7 @@ Description
   
   - The images are taken from YouTube videos covering 410 different human activities and the poses
   - Train 15K, Valid 3K, Test 7K (Total: 25K)
+  - is_visible: 1/0
   - Data annotations: http://human-pose.mpi-inf.mpg.de/#download
   - Joints (16)
     
