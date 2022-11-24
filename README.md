@@ -46,6 +46,7 @@ Description
       <img src="https://user-images.githubusercontent.com/52263269/202964626-1215357f-5b63-4fe6-be27-462c370057a9.png" width="35%"></img>
  
     **- OpenPose version**
+    - Add 'Neck' keypoint from COCO2017: interpolation between both shoulders
     - Joints (18)
     
       ```
